@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\S3_Assessment_Web.DAL\S3_Assessment_Web.DAL.csproj" />
+    <ProjectReference Include="..\S3_Assessment_Web.ViewModels\S3_Assessment_Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
